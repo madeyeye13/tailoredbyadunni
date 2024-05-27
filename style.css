@@ -115,6 +115,10 @@ body {
     width: 100%;
 }
 
+.header1 a {
+    color: black;
+}
+
 .sidebar li {
     width: 100%;
 }
@@ -197,9 +201,10 @@ body {
 .slideinfo h2 {
     color: #ff00ff;
     font-size: 35px;
-    padding-right: 30px;
-    padding-left: 30px;
+    /* padding-right: 30px; */
+    padding-left: 10px;
     text-align: center;
+    align-items: center;
 }
 
 .button1 {
@@ -315,17 +320,71 @@ body {
 }
 
 
-
+.picmom {
+    position: relative;
+}
 
 .picmom img {
     width: 100%;
 }
 
+.picmom h6{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: medium;
+    width: 40px;
+    height: 40px;
+    font-weight: 600;
+    
+}
+
 
 .pictext {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     font-family: "Josefin Sans", sans-serif;
-    margin-bottom: 20px;
-    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 30px;
+}
+
+.pictext h6 {
+    position: relative;
+    top: 3px;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    font-family: "Josefin Sans", sans-serif;
+    gap: 30px;
+}
+
+.price s {
+    color: rgb(132, 132, 132);
+}
+
+.btn {
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 15px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn button {
+    display: flex;
+    font-family: "Josefin Sans", sans-serif;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    white-space: nowrap;
+    justify-content: center;
+    align-items: center;
 }
