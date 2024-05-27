@@ -297,10 +297,17 @@ body {
 
 /*=============Products==========*/
 
-
+#products{
+    margin-bottom: 100px;
+}
 
 .rtw h4 {
     font-family: "Josefin Sans", sans-serif;
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: 350;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 
