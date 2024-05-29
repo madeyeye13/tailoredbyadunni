@@ -298,7 +298,7 @@ body {
 /*=============Products=========*/
 
 #products{
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
 .rtw {
@@ -389,6 +389,227 @@ body {
 }
 
 .btn button {
+    display: flex;
+    font-family: "Josefin Sans", sans-serif;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    white-space: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/*=============More Products=========*/
+
+  
+#morep {
+    padding-left: 20px;
+    margin-bottom: 100px;
+    overflow-x: hidden;
+}
+
+
+.morepic {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 30px;
+    overflow-x: auto;
+  -webkit-overflow-scrolling: touch; 
+  overflow-scrolling: touch; 
+
+}
+
+  .proimage {
+    position: relative;
+    max-width: 100%;
+    
+  }
+
+  .proimage img {
+    width: 300px;
+    
+  }
+
+  
+  
+  .proimage h6 {
+    position: absolute;
+    top: 10px;
+    left: 85%;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    font-family: "Josefin Sans", sans-serif;
+    width: 35px;
+    height: 35px;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  .textinfo {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    height: 15%;
+    width: 80%;
+    margin-top: -20px;
+    margin-left: 9%;
+    font-family: "Josefin Sans", sans-serif;
+    padding-top: 3%;
+}
+  
+  .probtn {
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 50%;
+    border: 1px solid black;
+    position: relative;
+    left: 70px;
+  }
+
+  .probtn button {
+    background-color: transparent;
+    border: none;
+    padding: 18px 12px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: medium;
+  }
+  
+.proprice {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    padding-left: 0%;
+    padding-top: 5%;
+    text-align: center;
+    justify-content: center;
+}
+
+.probtn button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 18px 12px;
+   width: 100%;
+}
+
+
+
+.collection {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+
+.collection h4 {
+    font-weight: 350;
+}
+
+
+
+
+/*=============More Products=========*/
+
+#product2{
+    margin-bottom: 70px;
+}
+
+.rtw2 {
+    font-family: "Josefin Sans", sans-serif;
+    padding-left: 20px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+.rtw2 h4 {
+    font-weight: 350;
+}
+
+
+
+.picfada2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+    gap: 30px;
+    padding:20px;
+}
+
+.picdad2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* padding-top: 40px; */
+}
+
+
+.picmom2 {
+    position: relative;
+}
+
+.picmom2 img {
+    width: 100%;
+}
+
+.picmom2 h6{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: medium;
+    width: 40px;
+    height: 40px;
+    font-weight: 600;
+    
+}
+
+
+.pictext2 {
+    display: flex;
+    flex-direction: row;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 30px;
+}
+
+.pictext2 h6 {
+    position: relative;
+    top: 3px;
+}
+
+.price2 {
+    display: flex;
+    flex-direction: row;
+    font-family: "Josefin Sans", sans-serif;
+    gap: 30px;
+}
+
+.price2 s {
+    color: rgb(132, 132, 132);
+}
+
+.btn2 {
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 15px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn2 button {
     display: flex;
     font-family: "Josefin Sans", sans-serif;
     width: 100%;
