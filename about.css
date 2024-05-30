@@ -240,3 +240,73 @@ body {
 
 
 
+
+.faq-section {
+    max-width: 800px;
+    margin-bottom: 20px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
+.faq-section h1 {
+    padding-left: 20px;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+
+
+
+
+.faq-header {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.faq-header:hover {
+    background-color: #ffe6e6;
+}
+
+.faq-header span {
+    font-size: 20px;
+}
+
+
+.faq-icon {
+    font-size: 18px;
+    transition: transform 0.3s ease;
+    color: #ff00ff;
+}
+.faq-content {
+    padding: 0 15px;
+    border: 1px solid #ddd;
+    border-top: none;
+    display: none;
+}
+
+.faq-content ul {
+    padding-left: 20px;
+}
+.faq-content li {
+    margin-bottom: 10px;
+
+}
+
+.faq-content p {
+    margin: 15px 0 ;
+    line-height: 20px;
+}
+.active .faq-content {
+    display: block;
+}
+.active .faq-icon {
+    transform: rotate(180deg);
+}
+
+
+
+/*-------------------shop now-------------------*/
