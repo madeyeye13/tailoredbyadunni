@@ -17,6 +17,45 @@ body {
     max-width: 100%;
 }
 
+   /*==========Whatsapp Icon=========*/
+
+
+   .whatsapp-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.whatsapp-btn {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #107f39;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    animation: blink 1s infinite alternate;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+@keyframes blink {
+    from {
+    opacity: 1;
+    }
+    to {
+    opacity: 0.5;
+    }
+}
+
+
+
+/*-------------------Header-----------*/
 
 
 .header {
