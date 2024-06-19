@@ -660,6 +660,16 @@ body {
     align-items: center;
 }
 
+.btn2 a {
+    color:#1e1e1e;
+    text-decoration: none;
+}
+
+
+.btn a {
+    color:#1e1e1e;
+    text-decoration: none;
+}
 
 /*----------------ShopNow--------------------*/
 
