@@ -661,6 +661,53 @@ body {
 }
 
 
+/*----------------ShopNow--------------------*/
+
+
+#shopnow {
+    position: relative;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(11, 11, 11, 0.874);
+    height: 250px;
+    background-image: url(image/7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode:overlay;
+    opacity: 9;
+}
+
+
+.ready {
+    position: relative;
+    top: 80px;
+}
+
+
+.ready h3 {
+    font-family:"Josefin Sans", sans-serif;
+    font-weight: 100%;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+
+.ready button {
+    padding: 20px 50px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    font-family:"Josefin Sans", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+
+
+
 
 
 
@@ -677,6 +724,11 @@ footer{
     padding-top: 50px;
     position: relative;
     top: 80px;
+  }
+
+
+  footer a {
+    color: #202020;
   }
 
   

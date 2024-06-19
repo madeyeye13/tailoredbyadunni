@@ -184,173 +184,161 @@ body {
 }
 
 
+/*--------------------Catalog Image---------------------*/
 
 
-/*-----------------------HeroImage for about------------------------*/
-
-
-.contact-head-head {
-	position: absolute;
+ .contact-head-head {
+    position: absolute;
     opacity: 9;
-	background-position: center;
-	background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     z-index: -2;
-    background-image: url("image/abouthero.jpg");
+    background-image: url("image/5.jpg");
     position:relative;
     padding-top:400px;
-    /* text-align: ; */
+    /* text-align: center; */
     background-blend-mode: overlay;
-    background-color: rgba(11, 11, 11, 0.659);
+    background-color: rgba(11, 11, 11, 0.719);
     object-fit: fill;
-    top:-40px;
+    top:-90px;
     padding-left: 20px;
 
-  }
 
-
-  .contact-head-head h1{
-    font-size: 50px;
-    font-weight: 300;
-    color:white;
-    position:relative;
-    top:-160px;
-    font-family: "Josefin Sans", sans-serif;
-  }
-
-
-#combo {
-    font-family: "Josefin Sans", sans-serif;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 20px;
 }
-
-#combo h1 {
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-#combo span {
-    color: #ff00ff;
-}
-
-#combo p {
-    font-weight: 350;
-    font-size: 17px;
-}
+     
+      .contact-head-head h1{
+        font-size: 50px;
+        font-weight: 300;
+        color:white;
+        position:relative;
+        top:-200px;
+        font-family:"Josefin Sans", sans-serif;
+        text-align: left;
+        
+      }
 
 
-
-/*----------------------Founder-----------------*/
-
-
-
-
-#team {
-    font-family: "Josefin Sans", sans-serif;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 20px;
-    margin-top: 50px;
-}
-
-#team h1 {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    color: #ff00ff;
-}
-
-#team p {
-    font-weight: 350;
-    font-size: 17px;
-    margin-bottom: 20px;
-}
+      a{
+        text-decoration: none;
+        color:#ff00ff;
+      }
 
 
-.team-card h2{
-    color: #ff00ff;
-    margin-bottom: 10px;
-    margin-top: 20px;
-}
+/*-------------------Gallery-----------------*/
 
 
 
-
-
-
-
-.faq-section {
-    max-width: 800px;
-    margin-bottom: 20px;
-    font-family: "Josefin Sans", sans-serif;
-}
-
-
-.faq-section h1 {
-    padding-left: 20px;
-    margin-bottom: 40px;
-    margin-top: 80px;
-}
-
-
-
-
-
-.faq-header {
-    background-color: #ffffff;
-    padding: 15px;
-    border: 1px solid #ddd;
-    cursor: pointer;
+.gallery-gallery{
+    padding:30px;
+    text-align: left;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-}
-.faq-header:hover {
-    background-color: #ffe6e6;
+    font-family:"Josefin Sans", sans-serif;
+  }
+
+  .gallery-card-mother{
+padding-top:50px;
+padding-bottom:50px;
+  }
+
+
+  .gal-card{
+    padding-bottom:40px;
+  }
+
+  .gal-card h2{
+    padding-top:15px;
+    text-align: left;
+  }
+
+	
+  @media (min-width: 768px) {
+
+    .gallery-card-mother{
+padding-top:50px;
+padding-bottom:50px;
+display:grid;
+grid-template-columns: repeat(2,40%);
+gap:30px;
+justify-content: center;
+align-items: center;
+  }
+
+
+.gallery-gallery h4{
+  width:70%;
+  text-align: left;
 }
 
-.faq-header span {
+
+
+  }
+
+
+  	
+  @media (min-width: 1024px) {
+
+.gallery-card-mother{
+padding-top:50px;
+padding-bottom:50px;
+display:grid;
+grid-template-columns: repeat(3,30%);
+gap:30px;
+justify-content: center;
+align-items: center;
+}
+
+
+}
+
+
+#shopnow {
+    position: relative;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(11, 11, 11, 0.874);
+    height: 250px;
+    background-image: url(image/7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode:overlay;
+    opacity: 9;
+}
+
+
+.ready {
+    position: relative;
+    top: 80px;
+}
+
+
+.ready h3 {
+    font-family:"Josefin Sans", sans-serif;
+    font-weight: 100%;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+
+.ready button {
+    padding: 20px 50px;
+    border: none;
+    background-color: white;
     font-size: 20px;
-}
-
-
-.faq-icon {
-    font-size: 18px;
-    transition: transform 0.3s ease;
-    color: #ff00ff;
-}
-.faq-content {
-    padding: 0 15px;
-    border: 1px solid #ddd;
-    border-top: none;
-    display: none;
-}
-
-.faq-content ul {
-    padding-left: 20px;
-}
-.faq-content li {
-    margin-bottom: 10px;
-
-}
-
-.faq-content p {
-    margin: 15px 0 ;
-    line-height: 20px;
-}
-.active .faq-content {
-    display: block;
-}
-.active .faq-icon {
-    transform: rotate(180deg);
+    font-family:"Josefin Sans", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
 }
 
 
 
-/*-------------------Footer-------------------*/
 
-
+/*------------------Footer--------------*/
 
 
 
@@ -361,6 +349,11 @@ footer{
     padding-top: 50px;
     position: relative;
     top: 80px;
+  }
+
+
+  footer a {
+    color: #202020;
   }
 
   
@@ -415,7 +408,6 @@ footer{
       color:#1e1e1e;
     }
 
-    footer a {
-        color: #202020;
-      }
-  
+
+
+
